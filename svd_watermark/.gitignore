@@ -1,0 +1,21 @@
+# Virtual environment folder (e.g., venv, .venv)
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE specific files (optional, examples)
+.idea/
+.vscode/
+
+# Secrets or environment variables (if you use a .env file)
+.env
+
+# Any large output files you don't want to track (e.g., large images/videos)
+# maybe add specific output image names if needed, or keep them tracked for examples
+# extracted_watermark.png # Example if you don't want to track output
+# watermarked_host.png    # Example if you don't want to track output
