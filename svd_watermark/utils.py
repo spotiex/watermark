@@ -21,7 +21,7 @@ def read_image(file_path, as_gray=False):
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     
     if img is None:
-        raise FileNotFoundError(f"无法读取图像文件: {file_path}")
+        raise FileNotFoundError(f"Cannot read file: {file_path}")
     
     return img
 
@@ -48,7 +48,7 @@ def save_image(img, file_path):
             
         return cv2.imwrite(file_path, img_to_save)
     except Exception as e:
-        print(f"保存图像失败: {e}")
+        print(f"Fail to save: {e}")
         return False
 
 def svd_decomposition(img_block):
